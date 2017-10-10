@@ -1,0 +1,272 @@
+
+
+*{
+	margin: 0
+}
+body{
+	font-family: oswald;
+}
+
+header{
+	background-color: #ffffff;
+	 padding: 10px 15px 8px;
+	 height: 90px;
+	 width: 1000px;
+	 margin: auto;
+}
+.container{
+	width: 100%; 
+	margin: auto;
+}
+
+header img{
+	float: left;
+
+}
+
+.menu{
+	float: right;
+	margin-top: 15px;
+
+}
+
+
+.dropdown {
+	position: absolute;
+
+
+}
+
+header nav > ul> li> ul{
+	display: none;
+	list-style-type: none;
+	z-index: 2;
+	background-color: #ffffff;
+	color: #50202e;
+	text-align: center;
+	padding: 10px;
+	font-size: 17px;
+	padding-right: 35px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+
+}
+
+header nav> ul> li:hover > ul {
+	display: block;
+
+
+}
+
+ header nav > ul>li{
+	list-style-type: none; 
+	display: inline-block;
+	 padding: 20px
+}
+.menu a{
+	/*font: oswald;*/
+	color: #50202e ;
+	text-decoration: none;
+	
+	}
+
+
+.menu a:hover{
+	text-decoration: underline;
+	color: #976568;
+}
+
+.menu i{
+	/*font: oswald;*/
+	font-size: 25px
+	
+	}
+
+
+
+
+
+section{
+	background-color: #ffffff;
+	height: 1500px
+}
+.nada{
+	background-image: url(../image/peliculas9.jpg);
+	height: 50px
+}
+.nada2{
+	background-image: url(../image/peliculas9.jpg);
+	height: 50px
+}
+
+.top{
+	margin-left: 10%;
+	height: 80px;
+	width: 80%;
+}
+#A {
+	color: #50202e;
+	font-size: 18px;
+	float: right;
+	margin-top: 0%;
+	margin-right: 2%;
+}
+#A:hover{
+	text-decoration: none;
+	font-size: 21px;
+	color:  #976568;
+
+}
+.top	h1{
+	color: #50202e;
+	margin-top: 20px;
+	margin-left: 400px;
+	font-size: 50px;
+	font-weight: 400; 
+	float:  left;
+
+}
+
+
+.accion , .fantasia , .comedia , .drama{
+	width: 100%;
+	margin-top: 2%;
+}
+
+.accion h2 , .fantasia h2 , .comedia h2 , .drama h2{
+text-align: left;
+	font-weight: 400;
+	color: #976568;
+	margin-left: 8%;
+	font-size: 40px;
+}
+.accion img ,.fantasia img , .comedia img , .drama img{
+	margin-top: 10px;
+	margin-bottom: -1px;
+	height: 100px;
+	margin-left:32%;
+	border-radius: 4px;
+
+}
+.accion h3 , .fantasia h3 , .comedia h3   , .drama h3{
+	border: 1px solid #cccccc;
+	font-size: 15px;
+	padding-bottom: 0px;
+	padding-right: 10px;
+	padding-left: 10px;
+	color: #50202e;
+	text-align: center;
+
+}
+
+.accion h4 , .fantasia h4 , .comedia h4 , .drama h4{
+	font-size: 13px;
+	margin-bottom: 5px;
+	font-weight: 400;
+	text-align: center;
+	color: #855050;
+}
+
+.accion i , .fantasia i , .comedia i , .drama i{
+		
+	background-color: transparent;
+	color:#ffffff;
+	padding: 10px;
+	font-size: 20px;
+	float: left;
+}
+/*Estilos Generales*/
+.button {
+	margin-left: 13%;
+	color:#ffffff;
+	display:inline-block;
+	font-size:18px;
+	text-align:center;
+	width:150px;
+	text-decoration:none;
+	border-radius: 5px;
+}
+
+.button a{
+	color: #ffffff;
+}
+
+.button span {
+	padding-top: 30px;
+}
+.button i{
+	background-color: #aa8080;
+}
+
+.button {
+	background:#855050;
+
+}
+.button a:hover{
+	
+}
+
+
+
+.content article{
+border: 1px solid #cccccc;
+border-radius: 7px;
+	float: left;
+	width: 15%;
+	height: 290px;
+	margin: 15px;
+	margin-left: 3%;
+
+}
+
+
+footer{
+  	background-color:#ffffff;
+  	width:100%;
+  	/*overflow: hidden;
+  	position: absolute;*/
+  	bottom: 0;
+  	 width: 100%;
+
+}
+
+.contendedor{
+	width:1150px;
+	margin:auto;
+	padding:25px;
+	color: grey;
+
+}
+
+.left{
+	float: left;
+	margin-top: 20px;
+}
+
+.left li{
+
+	color: #50202e; 
+	list-style-type: none;
+}
+
+.right li{
+
+	color: #50202e; 
+	list-style-type: none;
+	display: inline-block;
+	font-size: 40px;
+	padding-right: 20px;
+}
+
+.right a{
+
+color: #50202e; 
+}
+
+.right{
+	float: right; 
+	padding-top: 20px;
+	 padding-right: 20px;
+
+}
+

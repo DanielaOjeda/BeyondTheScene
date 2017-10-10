@@ -1,0 +1,254 @@
+*{
+	margin: 0
+}
+body{
+	font-family: oswald;
+}
+
+header{
+	background-color: #ffffff;
+	 padding: 10px 15px 8px;
+	 height: 90px;
+	 width: 1000px;
+	 margin: auto;
+}
+.container{
+	width: 100%; 
+	margin: auto;
+}
+
+header img{
+	float: left;
+
+}
+
+.menu{
+	float: right;
+	margin-top: 15px;
+
+}
+
+
+.dropdown {
+	position: absolute;
+
+
+}
+
+header nav > ul> li> ul{
+	display: none;
+	list-style-type: none;
+	z-index: 2;
+	background-color: #ffffff;
+	color: #50202e;
+	text-align: center;
+	padding: 10px;
+	font-size: 17px;
+	padding-right: 35px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+
+}
+
+header nav> ul> li:hover > ul {
+	display: block;
+
+
+}
+
+ header nav > ul>li{
+	list-style-type: none; 
+	display: inline-block;
+	 padding: 20px
+}
+.menu a{
+	/*font: oswald;*/
+	color: #50202e ;
+	text-decoration: none;
+	
+	}
+
+
+.menu a:hover{
+	text-decoration: underline;
+	color: #976568;
+}
+
+.menu i{
+	/*font: oswald;*/
+	font-size: 25px
+	
+	}
+
+
+
+section{
+	background-color: #ffffff;
+	height: 800px
+}
+
+article
+{
+	width: 80%;
+	margin-bottom: 20px;
+
+
+}
+
+
+.top{
+	margin-left: 10%;
+	height: 80px;
+	width: 80%;
+}
+.top a{
+	color: #50202e;
+	font-size: 18px;
+	float: left;
+	margin-top: 4%;
+}
+
+.top a:hover{
+	text-decoration: none;
+	font-size: 21px;
+	color:  #976568;
+
+}
+.top	h1{
+	color: #50202e;
+	margin-top: 20px;
+	font-size: 50px;
+	font-weight: 400; 
+	float:  right;
+
+}
+
+.down{
+	width: 90%;
+}
+/*
+.down button {
+	width: 200px;
+	text-align:center;
+	font-size: 30px;
+	float: right;
+	margin-top: 1%;	
+	color: #e2d11f;
+	border: 2px solid #e2d11f;
+	border-radius: 7px;
+	background-color: #ffffff;
+}
+
+.down a {
+	text-decoration: none;
+}
+
+.down button{
+	background-color: #e2d11f;
+	color: #ffffff;
+}*/
+.down button{
+	margin-top:1%;
+	border-radius:9px; 
+	text-align: center;
+	font-size: 35px;
+	 background-color:#e2d11f;
+	color: #ffffff	;
+	font-weight: bold;
+	 border: 4px solid #e2d11f;
+	  width:200px;
+	  float: right;
+}
+
+.down button:hover{
+  box-shadow: 0 4px 16px #e2d11f;
+ 
+  transition: all 0.2s ease;
+}
+.nada{
+	 background-image: url(../image/peliculas9.png);
+	height: 50px
+}
+
+table{
+	color: #50202e;
+		margin-top: 20px;
+	width:80% ;
+	margin-left: 10%;
+	border: 1px solid black;
+	border-collapse:collapse;
+	background-color: #ffffff;
+	border-radius: 40px;
+}
+
+tr{
+	text-align:left;
+	 color:#2d182a; 
+	 border: 1px solid #cccccc;
+	 border-radius: 7px;
+}
+
+.content img{
+	height: 100px;
+	margin-left: 35%;
+}
+
+.content i{
+	color: #cccccc;
+}
+
+.content i:hover{
+	color: #88001b;
+}
+
+footer{
+  	background-color:#ffffff;
+  	width:100%;
+  	/*overflow: hidden;
+  	position: absolute;*/
+  	bottom: 0;
+  	 width: 100%;
+
+}
+
+.contendedor{
+	width:1150px;
+	margin:auto;
+	padding:25px;
+	color: grey;
+	padding-bottom: 30px;
+
+}
+
+.left{
+	float: left;
+	margin-top: 20px;
+}
+
+.left li{
+
+	color: #50202e; 
+	list-style-type: none;
+}
+
+.right li{
+
+	color: #50202e; 
+	list-style-type: none;
+	display: inline-block;
+	font-size: 40px;
+	padding-right: 20px;
+}
+
+.right a{
+
+color: #50202e; 
+}
+
+.right{
+	float: right; 
+	padding-top: 20px;
+	 padding-right: 20px;
+
+}
+

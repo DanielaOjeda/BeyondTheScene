@@ -1,0 +1,202 @@
+*{
+	margin: 0;
+}
+
+body{
+	font-family: oswald;
+}
+
+header{
+	background-color: #ffffff;
+	 padding: 10px 15px 8px;
+	 height: 90px;
+	 width: 1000px;
+	 margin: auto;
+}
+.container{
+	width: 100%; 
+	margin: auto;
+}
+
+header img{
+	float: left;
+
+}
+
+.menu{
+	float: right;
+	margin-top: 15px;
+
+}
+
+
+.dropdown {
+	position: absolute;
+
+
+}
+
+header nav > ul> li> ul{
+	display: none;
+	list-style-type: none;
+	z-index: 2;
+	background-color: #ffffff;
+	color: #50202e;
+	text-align: center;
+	padding: 10px;
+	font-size: 17px;
+	padding-right: 35px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+
+}
+
+header nav> ul> li:hover > ul {
+	display: block;
+
+
+}
+
+ header nav > ul>li{
+	list-style-type: none; 
+	display: inline-block;
+	 padding: 20px
+}
+.menu a{
+	/*font: oswald;*/
+	color: #50202e ;
+	text-decoration: none;
+	
+	}
+
+
+.menu a:hover{
+	text-decoration: underline;
+	color: #976568;
+}
+
+.menu i{
+	/*font: oswald;*/
+	font-size: 25px
+	
+	}
+
+
+
+section{
+	background-color: #ffffff;
+	height: 600px
+}
+
+
+.container{
+	width: 100%; 
+	margin: auto;
+}
+.nada{
+	background-image: url(../image/peliculas9.jpg);
+	height: 55px;
+}
+
+.cont{
+	margin-top: 20px;
+}
+
+.cont h3{
+	color: #ad7475;
+	font-size: 18px;
+	font-weight: 200;
+	text-align: center;
+}
+
+.cont h1{
+	color: #855050;
+	text-align: center;
+	font-weight: bold;
+	font-size:50px;
+}
+.cont form{
+	text-align: center;
+	margin-top: 10px;
+}
+.cont label{
+	display: block;
+	color: #855050;
+}
+.cont input{
+	width:20%;
+	 height: 20px;
+	  border-radius:5px ;
+	   border: 1px solid #cccccc;
+}
+
+.cont button {
+		margin-top: 10px;
+		width: 15%;
+		height: 5%;
+		font-size:15px;
+		font-weight: bold;
+		border: 2px solid #50202e;
+		border-radius: 4px;
+		color: #ffffff;
+		background-color: #50202e;
+
+}
+
+.cont button:hover{
+	background-color: transparent;
+	color: #50202e;
+	border-color: #50202e;
+}
+
+
+footer{
+  	background-color:#ffffff;
+  	width:100%;
+  	/*overflow: hidden;
+  	position: absolute;*/
+  	bottom: 0;
+  	 width: 100%;
+
+}
+
+.contendedor{
+	width:1150px;
+	margin:auto;
+	padding:25px;
+	color: grey;
+	padding-bottom: 30px;
+
+}
+
+.left{
+	float: left;
+	margin-top: 20px;
+}
+
+.left li{
+
+	color: #50202e; 
+	list-style-type: none;
+}
+
+.right li{
+
+	color: #50202e; 
+	list-style-type: none;
+	display: inline-block;
+	font-size: 40px;
+	padding-right: 20px;
+}
+
+.right a{
+
+color: #50202e; 
+}
+
+.right{
+	float: right; 
+	padding-top: 20px;
+	 padding-right: 20px;
+
+}
